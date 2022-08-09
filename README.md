@@ -1,6 +1,14 @@
-# Raspico
+# Raspico v0.1.0
 
-一个简单的小板板，主要功能：将Rpi Pico和Rpi 4b的供电、串口和SWD管脚对应连接（可使用OpenOCD、gdb和VSCode进行优雅の嵌入式Pico开发），并引出标注两者所有GPIO针脚（便于接线）。
-另外引出一对5v GND引脚为风扇供电。  
+一个简单的转接板，主要功能：将Rpi Pico和Rpi 4b的供电、串口和SWD管脚对应连接（可使用OpenOCD、gdb和VSCode等编辑器进行较为方便的嵌入式Pico开发），并引出标注两者所有GPIO针脚（便于接线）。
+另外引出一对5v GND引脚为风扇供电。
 
-详细介绍blog：https://blog.wolfyzhang.cn/?p=110
+# Raspico v1.0.0
+
+相较v0.1.0有较大更新，对照功能列举如下：
+
+| **v0.1.0** | **v1.0.0**          |
+|:---------- |:------------------- |
+| Pico开发支持   | Raspberry Pi 4b状态屏幕 |
+| GPIO引出标注   | GPIO引出标注            |
+| 独立风扇电源     | 独立风扇位置及电源           |
